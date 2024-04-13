@@ -1,9 +1,18 @@
-# Detecting orphan pages and scanning them
-Context:
+# Detecting orphan pages and scanning them using Python
 
-Search for historical mementos (archived copies) of a URL -university site in this case-, download only the pages that are HTML about the mementos and save it as text file.
+This Python script allows you to search for historical mementos (archived copies) of a URL, in this case, a university site. It will download only the HTML pages that are still active (status code 200) and save them as text files.
 
-1)Search for KSU website (https://ksu.edu.sa)
+**The process:**
 
-2)read the previous file "ksu.txt" that has all the URLs and check the state of them if they are 200 (Active or alive) and keep only them in the test file
+1. Start by searching for the KSU website (https://ksu.edu.sa) to find its historical mementos.
+
+2. Make sure you have a file named "ksu.txt" that contains all the URLs related to the KSU website.
+
+3. Run the Python script provided to check the status of each URL in the "ksu.txt" file.
+
+4. The script will filter out the active (alive) URLs with a status code of 200 and save them in a new text file.
+
+5. The new text file will contain the details of the active URLs, allowing you to easily access and analyze the archived copies of the KSU website.
+
+By following these steps and utilizing this Python script, you can efficiently detect orphan pages and scan them for historical mementos of the KSU website. This can be valuable for retrieving and studying past content, preserving the university's online history, and conducting research or analysis on the evolution of the website.
 
